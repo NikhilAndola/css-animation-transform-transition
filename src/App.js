@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
-import { Transform2D } from './Transform2D';
+import { Transform2D } from './Transform2D/Transform2D';
+import { Transform3D } from './Transform3D/Transform3D';
+
 import { Spinner } from './spinner/Spinner.js';
 
 // let Arr = Array(5);
@@ -30,6 +32,7 @@ export default function App() {
       <button onClick={turnLoading}>click to show loading</button>
       {loading && <Spinner />}
       <Transform2D />
+      <Transform3D />
     </div>
   );
 }
