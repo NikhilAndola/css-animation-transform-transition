@@ -33,7 +33,7 @@ span:nth-child(4) {
 @keyframes load {
   25% {
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #dba617;
   }
   50% {
     border-radius: 0;
