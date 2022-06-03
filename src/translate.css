@@ -1,0 +1,59 @@
+.translate {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.trans {
+  transform: translate(200px, 10px);
+}
+
+.clr {
+  background-color: blue;
+}
+
+.rotate {
+  transform: rotate(135deg);
+}
+
+.rotateNegative {
+  transform: rotate(-35deg);
+}
+
+.top-m {
+  margin: 20px 0px;
+}
+
+.scale {
+  transform: scale(0.5, 0.5);
+}
+
+.scaleX {
+  transform: scaleX(0.5);
+}
+
+.scaleY {
+  transform: scaleY(2);
+}
+
+.skewX {
+  transform: skewX(20deg);
+}
+
+.skew {
+  transform: skew(20deg, 10deg);
+}
+
+.skewY {
+  transform: skewY(20deg);
+}
+
+.matrix {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+/* .parent-box > div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+} */
