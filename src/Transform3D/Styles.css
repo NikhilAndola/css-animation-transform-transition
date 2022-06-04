@@ -43,3 +43,96 @@
   transform-style: preserve-3d;
   transform: rotateX(45deg);
 }
+
+.cssTransition {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.cssTransition:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.transitionAZ div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+.transitionAZ div:hover {
+  width: 300px;
+}
+
+#div11 {
+  transition-timing-function: linear;
+}
+#div7 {
+  transition-timing-function: ease;
+}
+#div8 {
+  transition-timing-function: ease-in;
+}
+#div9 {
+  transition-timing-function: ease-out;
+}
+#div10 {
+  transition-timing-function: ease-in-out;
+}
+
+.div15 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.div15:hover {
+  width: 300px;
+}
+
+.div16 {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.div16:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.div17 {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.div17:hover {
+  width: 300px;
+}
+
+.div18 {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s linear 1s;
+}
+
+.div18:hover {
+  width: 300px;
+}

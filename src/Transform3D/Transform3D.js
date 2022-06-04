@@ -61,6 +61,81 @@ export const Transform3D = () => {
       </div>
       {/* <div className={clsx('divs', 'top-m', { rotateY: btn })}>rotateY</div>
       <div className={clsx('divs', 'top-m', { rotateZ: btn })}>rotateZ</div> */}
+
+      <div style={{ margin: '40px' }}>
+        <h2>CSS Transitions</h2>
+        <ul>
+          In this chapter you will learn about the following properties:
+          <li>transition</li>
+          <li>transition-delay</li>
+          <li>transition-duration</li>
+          <li>transition-property</li>
+          <li>transition-timing-function</li>
+        </ul>
+
+        <div>
+          How to Use CSS Transitions? To create a transition effect, you must
+          specify two things: the CSS property you want to add an effect to the
+          duration of the effect Note: If the duration part is not specified,
+          the transition will have no effect, because the default value is 0.
+        </div>
+        <div>
+          <h2>Specify the Speed Curve of the Transition</h2>
+          The <code>transition-timing-function</code> property specifies the
+          speed curve of the transition effect.
+          <h3>
+            {' '}
+            The transition-timing-function property can have the following
+            values:
+          </h3>
+          <ul>
+            <li>
+              ease - specifies a transition effect with a slow start, then fast,
+              then end slowly (this is default)
+            </li>
+            <li>
+              linear - specifies a transition effect with the same speed from
+              start to end
+            </li>
+            <li>ease-in - specifies a transition effect with a slow start</li>
+            <li>ease-out - specifies a transition effect with a slow end</li>
+            <li>
+              ease-in-out - specifies a transition effect with a slow start and
+              end
+            </li>
+            <li>
+              cubic-bezier(n,n,n,n) - lets you define your own values in a
+              cubic-bezier function
+            </li>
+          </ul>
+        </div>
+
+        {/* <button onClick={testAll}>Test</button> */}
+        {/* <div
+          style={{ margin: '40px' }}
+          className={clsx('cssTransition', 'top-m', { rotafdsY: btn })}
+        >
+          Transtitions
+        </div> */}
+      </div>
+
+      <div className="transitionAZ">
+        <div id="div11">linear</div>
+        <br />
+        <div id="div7">ease</div>
+        <br />
+        <div id="div8">ease-in</div>
+        <br />
+        <div id="div9">ease-out</div>
+        <br />
+        <div id="div10">ease-in-out</div>
+        <br />
+      </div>
+
+      <div className="div15">Transition-delay</div>
+      <div className="div16">Transition + Transform</div>
+      <div className="div17">transition Properties</div>
+      <div className="div18">shorthand property transition:</div>
     </>
   );
 };
